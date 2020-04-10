@@ -1,0 +1,30 @@
+{
+  "name": "end-of-stream-ts",
+  "version": "0.0.0",
+  "description": "TS/Promise wrapper over end-of-stream module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "git@github.com:findie/end-of-stream-ts.git",
+  "author": "stefan@findie.me",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^13.11.1",
+    "husky": "^4.2.5",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "watch": "tsc --watch",
+    "build": "tsc",
+    "prepublishOnly": "tsc"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsc"
+    }
+  },
+  "dependencies": {
+    "@types/end-of-stream": "^1.4.0",
+    "end-of-stream": "^1.4.4"
+  }
+}
