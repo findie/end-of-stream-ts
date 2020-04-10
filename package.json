@@ -8,6 +8,14 @@
   "author": "stefan@findie.me",
   "license": "MIT",
   "private": false,
+  "keywords": [
+    "stream",
+    "wait",
+    "await",
+    "end",
+    "finish",
+    "close"
+  ],
   "devDependencies": {
     "@types/node": "^13.11.1",
     "husky": "^4.2.5",
