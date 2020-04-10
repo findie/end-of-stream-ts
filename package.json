@@ -1,6 +1,6 @@
 {
   "name": "end-of-stream-ts",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "TS/Promise wrapper over end-of-stream module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
